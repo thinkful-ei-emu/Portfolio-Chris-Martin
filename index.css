@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    height: 50px;
+    margin: 15px 15px;
+}
+
+main {
+    text-align: center;
+}
+
+.top-circle, .bottom-circle {
+    width: 300px;
+    height: 100%;
+}
+
+.top-circle {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.bottom-circle {
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+  }
