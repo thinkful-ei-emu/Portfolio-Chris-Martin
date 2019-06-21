@@ -1,19 +1,28 @@
-import $ from 'jquery';
-import 'normalize.css';
+/* global store, $, api*/
 
-import './index.css';
+function generateAboutMe() {
 
-import download from './images/download.jpg';
-import LinkedIn from './images/LinkedIn.jpg';
-import makeMoney from './images/makeMoney.jpg';
+}
 
-let downloadImg = document.getElementById('download');
-let LinkedInImg = document.getElementById('LinkedIn');
-let makeMoneyImg = document.getElementById('makeMoney');
+function generateProjects() {
 
-downloadImg.src = download;
-LinkedInImg.src = LinkedIn;
-makeMoneyImg.src = makeMoney;
+}
+
+function handleAboutMeClick() {
+  $('.js-about-me').click(event => {
+    event.preventDefault();
+    $('#js-submit-bookmark-form').removeClass('hidden');
+    $('.js-projects').addClass('hidden');
+  });
+}
+
+function handleProjectsClick() {
+  $('.js-projects').click(event => {
+    event.preventDefault();
+    $('#js-submit-bookmark-form').removeClass('hidden');
+    $('.js-about-me').addClass('hidden');
+  });
+}
 
 function main() {
   

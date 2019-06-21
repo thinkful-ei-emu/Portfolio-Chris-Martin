@@ -2,25 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link rel="stylesheet" href="./about-me.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 <body>
-    <header>
-            <img src="images/download.jpg" class="header-img" alt="">
-            <!-- <p><img class="logo" id="LinkedIn" alt="Chris Martin's Logo" src="images/LinkedIn.jpg"></p> -->
-            
-    </header>
-    <main>
+    <main class="container">
+        <!-- <img src="images/download.jpg" class="header-img" alt=""> -->
+        <div class="page-header">
         <h1>About Me</h1>
-        <p><a href="./projects.html">Projects</a></p>
-        <div>
-            <p class="img-left">
-            <img src="images/download.jpg" class="float-left" alt="">
-            </p>
-            <p>To my friends, I’m the kind guy. To my customers and coworkers,
+        </div>
+        <p><span><a href="./index.html">Home</a></span> <span><a href="./projects.html">Projects</a></span></p>
+        <section class="flex-center">
+            <div class="headline-area">
+                <img class="self-pic" src="images/self-pic.jpg" alt="a close up picture of Chris Martin">
+                <p class="headline-text">I’m a full-stack engineer with enough experience in customer success to be dangerous. 
+                I love collaborating with diverse teams and individuals as we work to create something 
+                cool and unique.</p>
+            </div>
+        </section>
+        <div class="flex-center">
+            <p class="text-box myself">To my friends, I’m the kind guy. To my customers and coworkers,
             I’m the teacher. To my enemies...I’m still awkwardly kind. It’s a hard 
             habit to break, but one that helps me fit in well with a multitude of 
             teams and environments. I will always be the guy who is willing to talk 
@@ -30,12 +36,9 @@
             above and beyond to make sure things get done right and committed to 
             making sure that everyone feels like they have a part.</p>
         </div>
-        <div>
-            <p class="img-right">
-            <img src="images/download.jpg" class="float-right" alt="">
-            </p>
-            <p>After 5 years of medical research working in labs that filled up a 
-                whole floor to a shoebox in the basement, all with low to no human 
+        <div class="flex-center">
+            <p class="text-box workhis">After 5 years of medical and physics research 
+                in labs of all sizes, all with little to no human 
                 interaction, I decided I needed a change. I wanted to find something 
                 that would still allow me to make a difference, but would allow me 
                 to have a high amount of collaboration with others to create more 
@@ -47,38 +50,33 @@
                 it was still missing something. In the end, I lost the ability to 
                 create, which was one of the things that I loved about research.</p>
         </div>
-        <div>
-            <p>With my immigration work, I ended up interacting a lot with people who
-                 worked on all sides of the software development spectrum. These 
-                 conversations and their passion for the work that they were about to 
-                 build and create turned on a lightbulb for me.</p>
-            <p class="imgimg-right">
-                    <p class="img">
-            <img src="images/download.jpg" class="float-right" alt="">
-            </p>
+        <div class="flex-center">
+            <p class="text-box influence">With my work, I ended up interacting 
+                with people who worked on all sides of the software development 
+                spectrum. Their passion for the work that they had and were about to 
+                 build turned on a lightbulb for me.</p>            
         </div>
-        <div>
-            <p>Web development is like the perfect blend of languages and math. I bundle 
+        <div class="flex-center">
+            <p class="text-box current">Web development is like the perfect blend of languages and math. I bundle 
                 things together just right and something beautiful comes out. At the same 
                 time, If I throw things together just to see what happens, you continue 
                 to discover something new. All of this happens while I ultimately create 
                 something that I can share immediately. At the same time, it requires high 
                 amounts of collaboration as you work with others to put everything together.</p>
-                <p class="img-left">
-                <img src="images/download.jpg" class="float-left" alt="">
-            </p>
         </div>
-        <div>
-            <p>It sounded perfect, so I joined a full-stack Bootcamp where I’ve grown my 
-                appreciation for languages like HTML, CSS, and JavaScript.</p>
-
-            <p>Now I strive to continue learning more and refining my skills. I’m 
+        <div class="flex-center">
+            <p class="text-box future">It sounded perfect, so I joined a full-stack Bootcamp where I’ve grown my 
+                appreciation for languages like HTML, CSS, and JavaScript. Now I strive to continue learning more and refining my skills. I’m 
                 excited to see how I can continue to create something beautiful and 
                 useful for everyone around me.</p>
-                <p class="img-right">
-                    <img src="images/download.jpg" class="float-right" alt="">
-                </p>
         </div>
     </main>
+    <footer>
+        <p>Contact Me:</p>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
