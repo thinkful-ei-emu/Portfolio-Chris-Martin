@@ -5,6 +5,7 @@
 
 html {
     background-color: #F2F6FF;
+    font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -46,6 +47,7 @@ main {
 .footer-name {
     font-size: 15px;
     margin: 8px 0 0 5px;
+    font-family: 'Lobster Two', cursive;
 }
 
 .contact-list-footer, .navigation-list-footer {
@@ -92,7 +94,7 @@ main {
 
     .footer-name {
         font-size: 22px;
-        margin: 3px 0 0 10px;
+        margin: 5px 0 0 10px;
     }
 
     .contact-list, .contact-list-footer {
@@ -146,6 +148,7 @@ h4 {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Mali', cursive;
 }
 
 .text-box {

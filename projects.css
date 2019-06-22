@@ -1,15 +1,21 @@
-.card-title {
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 20px;
+    color: #444;
     text-align: center;
-    margin-top: 5px;
-}
-
-.projects-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card-styling {
-    margin: 20px;
-}
+    line-height: 1.5;
+  }
+  
+  nav {
+    padding: 3% 0 3% 0;
+    background-color: #aaa;
+  }
+  
+  section {
+    min-height: 500px;
+    padding: 6% 0;
+    background-color: #bbb;
+  }
