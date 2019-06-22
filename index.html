@@ -13,10 +13,16 @@
 <body>
     <header class="page-header">
         <div class="logo-name">
-            <p class="header"><img class="logo" id="LinkedIn" alt="Chris Martin's Logo" src="images/download.jpg"></p>
-            <div>
-                <p class="firstname">Chris</p>
-                <p class="lastname">Martin</p>
+            <p class="header"><img class="logo" id="LinkedIn" alt="Chris Martin's Logo" src="images/logo.png"></p>
+        </div>
+        <div class="dropdown navigation-list js-navigation-list hidden">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Navigation
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item js-go-home" target="_blank" href="#">Home</a>
+                <a class="dropdown-item js-about-me dd-about-me" target="_blank" href="#">About Me</a>
+                <a class="dropdown-item js-projects dd-projects" target="_blank" href="#">Projects</a>
             </div>
         </div>
         <div class="dropdown contact-list">
@@ -31,20 +37,168 @@
         </div>
     </header>
     <main>
-        <p><a class="js-about-me" href="./about-me.html">About Me</a></p>
-        <p>
-            <a class="js-about-me" href="./about-me.html"><img src="images/download.jpg" class="top-circle" alt=""></a>
-        </p>
-        <p class="headline">I’m a full-stack engineer with enough experience in customer success to be dangerous. 
-            I love collaborating with diverse teams and individuals as we work to create something 
-            cool and unique.</p>
-        <p>
-        <a class="js-projects" href="./projects.html"><img src="images/download.jpg" class="bottom-circle" alt=""></a>
-        </p>
-        <p><a class="js-projects" href="./projects.html">Projects</a></p>
+        <section>
+            <p class="js-about-me"><a href="#">About Me</a></p>
+            <p class="js-about-me">
+                <a href="#"><img src="images/download.jpg" class="top-circle" alt=""></a>
+            </p>
+            <p class="headline js-headline">I’m a full-stack engineer with enough experience in customer success to be dangerous. 
+                I love collaborating with diverse teams and individuals as we work to create something 
+                cool and unique.</p>
+            <p class="js-projects">
+            <a  href="#"><img src="images/download.jpg" class="bottom-circle" alt=""></a>
+            </p>
+            <p class="js-projects"><a href="#">Projects</a></p>
+        </section>
+        <section class="projects-section hidden">
+            <h2>Projects</h2>
+            <div class="project-cards">
+                <div class="card card-styling" style="width: 18rem;">
+                    <img class="card-img-top" src="images/download.jpg" alt="Card image cap">
+                    <h5 class="card-title">Bookmark App</h5>
+                    <div class="card-body">
+                        <p class="card-text">A simple bookmark saving app that tests API 
+                                functionality and responsive layout. This allows users to save, 
+                                edit and delete bookmarks for later access.</p>
+                        <h6 class="card-text">List of technologies</h6>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">HTML</li>
+                            <li class="list-group-item">CSS</li>
+                            <li class="list-group-item">JavaScipt</li>
+                            <li class="list-group-item">Node.js</li>
+                            </ul>
+                    </div>
+                        <a href="https://thinkful-ei-emu.github.io/Bookmark-App-Chris-M/" class="btn btn-primary">Live App</a>
+                        <a href="https://github.com/thinkful-ei-emu/Bookmark-App-Chris-M" class="btn btn-primary">Repo</a>
+                </div>
+            </div>
+            <h4 class="skills-title">Technical Skills</h4>
+            <table class="table table-design">
+                <thead>
+                    <tr>
+                    <th scope="col">FrontEnd</th>
+                    <th scope="col">BackEnd</th>
+                    <th scope="col">WorkFlow</th>
+                    <th scope="col">Testing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td scope="row">HTML</td>
+                    <td>Node.js</td>
+                    <td>Git</td>
+                    <td>Chrome Dev Tools</td>
+                    </tr>
+                    <tr>
+                    <td scope="row">CSS</td>
+                    <td></td>
+                    <td>Slack</td>
+                    <td></td>
+                    </tr>
+                    <tr>
+                    <td scope="row">JavaScipt</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    </tr>
+                    <td scope="row">jQuery</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    </tr>
+                    <td scope="row">Bootstrap</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="about-me-section container hidden">
+            <h2>Hey, I'm Chris!</h2>
+            <section class="flex-center">
+                <div class="headline-area">
+                    <img class="self-pic" src="images/self-pic.jpg" alt="a close up picture of Chris Martin">
+                    <p class="headline-text">I’m a full-stack engineer with enough experience in customer success to be dangerous. 
+                    I love collaborating with diverse teams and individuals as we work to create something 
+                    cool and unique.</p>
+                </div>
+            </section>
+            <div class="flex-center">
+                <p class="text-box myself">To my friends, I’m the kind guy. To my customers and coworkers,
+                I’m the teacher. To my enemies...I’m still awkwardly kind. It’s a hard 
+                habit to break, but one that helps me fit in well with a multitude of 
+                teams and environments. I will always be the guy who is willing to talk 
+                about almost any topic that might come time someone’s mind, willing to 
+                find every chance to read a book and bursting out in song at the drop 
+                of a hat. At the same time, I will always be the person who will go 
+                above and beyond to make sure things get done right and committed to 
+                making sure that everyone feels like they have a part.</p>
+            </div>
+            <div class="flex-center">
+                <p class="text-box workhis">After 5 years of medical and physics research 
+                    in labs of all sizes, all with little to no human 
+                    interaction, I decided I needed a change. I wanted to find something 
+                    that would still allow me to make a difference, but would allow me 
+                    to have a high amount of collaboration with others to create more 
+                    tangible results. This lead to me working for 2 ½ years as an 
+                    Immigration Program Manager overseeing $10+ million in business 
+                    revenue as we helped people have legal work authorization and gave 
+                    companies across the country access to that talent. While this role 
+                    change gave me the collaboration I craved along with quicker results, 
+                    it was still missing something. In the end, I lost the ability to 
+                    create, which was one of the things that I loved about research.</p>
+            </div>
+            <div class="flex-center">
+                <p class="text-box influence">With my work, I ended up interacting 
+                    with people who worked on all sides of the software development 
+                    spectrum. Their passion for the work that they had and were about to 
+                     build turned on a lightbulb for me.</p>            
+            </div>
+            <div class="flex-center">
+                <p class="text-box current">Web development is like the perfect blend of languages and math. I bundle 
+                    things together just right and something beautiful comes out. At the same 
+                    time, If I throw things together just to see what happens, you continue 
+                    to discover something new. All of this happens while I ultimately create 
+                    something that I can share immediately. At the same time, it requires high 
+                    amounts of collaboration as you work with others to put everything together.</p>
+            </div>
+            <div class="flex-center">
+                <p class="text-box future">It sounded perfect, so I joined a full-stack Bootcamp where I’ve grown my 
+                    appreciation for languages like HTML, CSS, and JavaScript. Now I strive to continue learning more and refining my skills. I’m 
+                    excited to see how I can continue to create something beautiful and 
+                    useful for everyone around me.</p>
+            </div>
+        </section>
     </main>
+    <footer class="page-footer hidden">
+            <div class="footer-name">
+                <p class="footer-name">( ...Chris Martin )</p>
+            </div>
+            <div class="dropup navigation-list-footer js-navigation-list hidden">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Navigation
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item js-go-home" target="_blank" href="#">Home</a>
+                    <a class="dropdown-item js-about-me dd-about-me" target="_blank" href="#">About Me</a>
+                    <a class="dropdown-item js-projects dd-projects" target="_blank" href="#">Projects</a>
+                </div>
+            </div>
+            <div class="dropup contact-list-footer">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Contact Me
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" target="_blank" href="https://www.linkedin.com/in/chrisdmartin-18/">LinkedIn</a>
+                    <a class="dropdown-item" target="_blank" href="https://github.com/bizunit34">GitHub</a>
+                    <a class="dropdown-item" target="_blank" href="mailto:chris.bizunit34@gmail.com">Email</a>
+                </div>
+            </div>
+        </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>

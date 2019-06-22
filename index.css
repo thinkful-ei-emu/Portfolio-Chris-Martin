@@ -1,16 +1,34 @@
+/* for the index */
 * {
     box-sizing: border-box;
 }
 
+html {
+    background-color: #F2F6FF;
+}
+
 body {
-    font-size: 16px;
+    font-size: 17px;
+}
+
+main {
+    background-color: #F2F6FF;
 }
 
 .page-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #FFF3D9;
 }
+
+.page-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #BAA87F;
+}
+
 .logo-name {
     display: flex;
     flex-direction: row;
@@ -18,21 +36,25 @@ body {
 
 .logo {
     height: 50px;
-    margin: 15px 15px;
+    margin: 15px 0 0 15px;
 }
 
-.firstname {
-    margin-top: 30px;
-    margin-left: -10px;
+.contact-list, .navigation-list {
+    margin-top: 25px;
 }
 
-.lastname {
-    margin-top: -25px;
-    margin-left: -10px;
+.footer-name {
+    font-size: 15px;
+    margin: 8px 0 0 5px;
 }
 
-.contact-list {
-    margin: 15px;
+.contact-list-footer, .navigation-list-footer {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.contact-list, .contact-list-footer {
+    margin-right: 5px;
 }
 
 main {
@@ -57,9 +79,9 @@ main {
 .bottom-circle {
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
-  }
+}
 
-  @media only screen and (min-width: 400px) {
+@media only screen and (min-width: 400px) {
     .top-circle, .bottom-circle {
         width: 200px;
     }
@@ -67,4 +89,70 @@ main {
     .headline {
         width: 300px;
     }
+
+    .footer-name {
+        font-size: 22px;
+        margin: 3px 0 0 10px;
+    }
+
+    .contact-list, .contact-list-footer {
+        margin-right: 10px;
+    }
 }
+
+/* for the .projects-section */
+.card-title {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-styling {
+    margin: 20px;
+    
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+h4 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.headline-area {
+    text-align: center;
+}
+
+/* for about me section */
+.self-pic {
+    width: 200px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.headline-text {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-box {
+    max-width: 70%
+}
+
+/* display variation */
+.hidden {
+    display: none;
+  }
