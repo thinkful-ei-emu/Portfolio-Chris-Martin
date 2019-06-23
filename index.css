@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 main {
@@ -50,9 +50,19 @@ main {
     font-family: 'Lobster Two', cursive;
 }
 
+.header-name {
+    font-size: 20px;
+    margin: 36px 0 0 5px;
+    font-family: 'Lobster Two', cursive;
+}
+
 .contact-list-footer, .navigation-list-footer {
     margin-bottom: 20px;
     margin-top: 10px;
+}
+
+.navigation-list {
+    margin-left: -60px;
 }
 
 .contact-list, .contact-list-footer {
