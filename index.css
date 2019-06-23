@@ -10,10 +10,12 @@ html {
 
 body {
     font-size: 18px;
+    background-color: #F2F6FF;
 }
 
 main {
     background-color: #F2F6FF;
+    text-align: center;
 }
 
 .page-header {
@@ -67,10 +69,6 @@ main {
 
 .contact-list, .contact-list-footer {
     margin-right: 5px;
-}
-
-main {
-    text-align: center;
 }
 
 .headline {
