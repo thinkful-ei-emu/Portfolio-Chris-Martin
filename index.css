@@ -62,7 +62,7 @@ main {
 }
 
 .navigation-list {
-    margin-left: -60px;
+    margin-left: 60px;
 }
 
 .contact-list, .contact-list-footer {
@@ -79,8 +79,13 @@ main {
     margin-right: auto;
 }
 
+a:link {
+    color: black;
+}
+
 .top-circle, .bottom-circle {
     width: 75%;
+    border: 1px solid #BAA87F;
 }
 
 .top-circle {
@@ -92,6 +97,8 @@ main {
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
 }
+
+.grow:hover { transform: scale(1.2); }
 
 @media only screen and (min-width: 400px) {
     .top-circle, .bottom-circle {
@@ -162,7 +169,7 @@ h4 {
 }
 
 .text-box {
-    max-width: 70%
+    max-width: 75%;
 }
 
 /* display variation */
