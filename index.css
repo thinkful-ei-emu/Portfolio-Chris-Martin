@@ -77,6 +77,10 @@ main {
     margin-right: auto;
 }
 
+.home-text {
+    margin-top: 80px;
+}
+
 a:link {
     color: black;
 }
@@ -98,24 +102,7 @@ a:link {
 
 .grow:hover { transform: scale(1.2); }
 
-@media only screen and (min-width: 400px) {
-    .top-circle, .bottom-circle {
-        width: 200px;
-    }
 
-    .headline {
-        width: 300px;
-    }
-
-    .footer-name {
-        font-size: 22px;
-        margin: 5px 0 0 10px;
-    }
-
-    .contact-list, .contact-list-footer {
-        margin-right: 10px;
-    }
-}
 
 /* for the .projects-section */
 .card-title {
@@ -160,14 +147,46 @@ h4 {
 }
 
 .headline-text {
-    width: 50%;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Mali', cursive;
 }
 
 .text-box {
-    max-width: 75%;
+    max-width: 300px;
+}
+
+@media only screen and (min-width: 400px) {
+    .top-circle, .bottom-circle {
+        width: 200px;
+    }
+
+    .headline {
+        width: 300px;
+    }
+
+    .footer-name {
+        font-size: 22px;
+        margin: 5px 0 0 10px;
+    }
+
+    .contact-list, .contact-list-footer {
+        margin-right: 10px;
+    }
+
+    .headline-text {
+        width: 400px;
+    }
+    
+    .text-box {
+        max-width: 650px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .text-box {
+        max-width: 900px;
+    }
 }
 
 /* display variation */
