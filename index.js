@@ -43,12 +43,23 @@ function handleHomeClick() {
   });
 }
 
+function myFunction(x) {
+  if (x.matches) { // If media query matches
+    $('.js-dropdown-toggle').addClass('btn-sm');
+    $('.js-table').addClass('small-table');
+  } else {
+    $('.js-dropdown-toggle').removeClass('btn-sm');
+    $('.js-table').addClass('table');
+  }
+}
+
 function main() {
   handleAboutMeClick();
   handleProjectsClick();
   removeHome();
   addHome();
   handleHomeClick();
+  myFunction(window.matchMedia('(max-width: 400px)'));
 }
 
 $(main);
