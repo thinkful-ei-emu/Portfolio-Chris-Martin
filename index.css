@@ -23,6 +23,7 @@ main {
     flex-direction: row;
     justify-content: space-between;
     background-color: #FFF3D9;
+    height: 12vh;
 }
 
 .page-footer {
@@ -74,7 +75,7 @@ main {
 }
 
 .home-text {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 a:link {
@@ -89,11 +90,13 @@ a:link {
 .top-circle {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+    transition: .5s;
 }
 
 .bottom-circle {
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
+    transition: .5s;
 }
 
 .grow:hover { transform: scale(1.2); }

@@ -38,14 +38,14 @@
     </header>
     <main>
         <section class="home-section">
-            <p class="js-about-me"><a href="#">About Me</a></p>
+            <p class="js-about-me about-me"><a href="#">About Me</a></p>
             <p class="js-about-me">
                 <a href="#"><img src="images/Chris+Steph2.jpg" class="top-circle grow" alt="A picture of Chris with his amazing wife"></a>
             </p>            
             <p class="js-projects">
             <a  href="#"><img src="images/BookmarkApp.jpg" class="bottom-circle grow" alt="A picture of one of Chris' projects."></a>
             </p>
-            <p class="js-projects"><a href="#">Projects</a></p>
+            <p class="js-projects projects"><a href="#">Projects</a></p>
             <div class="home-text headline-text js-headline">
                 <p><b>My name is Chris Martin.</b></p> I’m a full-stack software engineer 
                 who loves collaborating with diverse teams and individuals to make something beautiful.</p></div>
@@ -53,6 +53,29 @@
         <section class="projects-section hidden">
             <h2>Projects</h2>
             <div class="project-cards">
+                    <div class="card card-styling" style="width: 18rem;">
+                            <img class="card-img-top" src="images/MB_Landing.jpg" alt="A browser screenshot of the Bookmark storing applicaiton">
+                            <h5 class="card-title">Mobile Bookshelf</h5>
+                            <div class="card-body">
+                                <p class="card-text">Mobile Bookshelf is an full-stack application that allows users to compile information on all 
+                                    of the books that they are reading across various mediums (print, ebook, website, etc) in one database. Along 
+                                    with providing a digital bookshelf, there is also a shared space where you can explore what other users are 
+                                    reading and have read.</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <img class="logo" id="React" alt="React" src="images/React-logo.png">
+                                        <img class="logo" id="HTML" alt="HTML" src="images/html logo.png">
+                                        <img class="logo" id="CSS" alt="CSS" src="images/css logo.png">
+                                        <img class="logo" id="JavaScript" alt="JavaScript" src="images/javascript-logo.png">
+                                    </li>
+                                    <li class="list-group-item">
+                                        <img class="logo" id="Nodejs" alt="Nodejs" src="images/nodejs-logo.png">
+                                    </li>
+                                    </ul>
+                            </div>
+                                <a href="https://chris-mobile-bookshelf-app.now.sh" class="btn btn-primary" target="_blank">Live App</a>
+                                <a href="https://github.com/thinkful-ei-emu/chris-capstone1-client" class="btn btn-primary" target="_blank">Repo</a>
+                        </div>
                 <div class="card card-styling" style="width: 18rem;">
                     <img class="card-img-top" src="images/BookmarkApp.jpg" alt="A browser screenshot of the Bookmark storing applicaiton">
                     <h5 class="card-title">Bookmark App</h5>
@@ -62,11 +85,16 @@
                                 edit and delete bookmarks for later access.</p>
                         <h6 class="card-text">List of technologies</h6>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">HTML</li>
-                            <li class="list-group-item">CSS</li>
-                            <li class="list-group-item">JavaScipt</li>
-                            <li class="list-group-item">Node.js</li>
-                            </ul>
+                            <li class="list-group-item">
+                                <img class="logo" id="React" alt="React" src="images/JQuery_logo.png">
+                                <img class="logo" id="HTML" alt="HTML" src="images/html logo.png">
+                                <img class="logo" id="CSS" alt="CSS" src="images/css logo.png">
+                                <img class="logo" id="JavaScript" alt="JavaScript" src="images/javascript-logo.png">
+                            </li>
+                            <li class="list-group-item">
+                                <img class="logo" id="Nodejs" alt="Nodejs" src="images/nodejs-logo.png">
+                            </li>
+                        </ul>
                     </div>
                         <a href="https://thinkful-ei-emu.github.io/Bookmark-App-Chris-M/" class="btn btn-primary" target="_blank">Live App</a>
                         <a href="https://github.com/thinkful-ei-emu/Bookmark-App-Chris-M" class="btn btn-primary" target="_blank">Repo</a>
@@ -81,12 +109,13 @@
                             impossible, but that's half the fun.</p>
                         <h6 class="card-text">List of technologies</h6>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">HTML</li>
-                            <li class="list-group-item">CSS</li>
-                            <li class="list-group-item">JavaScipt</li>
-                            <li class="list-group-item">jQuery</li>
-                            <li class="list-group-item">Node.js</li>
-                            </ul>
+                            <li class="list-group-item">
+                                <img class="logo" id="React" alt="React" src="images/JQuery_logo.png">
+                                <img class="logo" id="HTML" alt="HTML" src="images/html logo.png">
+                                <img class="logo" id="CSS" alt="CSS" src="images/css logo.png">
+                                <img class="logo" id="JavaScript" alt="JavaScript" src="images/javascript-logo.png">
+                            </li>
+                        </ul>
                     </div>
                         <a href="https://thinkful-ei-emu.github.io/wlib-quiz-app-chris/" class="btn btn-primary disabled" target="_blank">Live App</a>
                         <a href="https://github.com/thinkful-ei-emu/wlib-quiz-app-chris" class="btn btn-primary" target="_blank">Repo</a>
@@ -98,6 +127,7 @@
                     <tr>
                     <th scope="col">FrontEnd</th>
                     <th scope="col">BackEnd</th>
+                    <th scope="col">Database</th>
                     <th scope="col">WorkFlow</th>
                     <th scope="col">Testing</th>
                     </tr>
@@ -106,30 +136,35 @@
                     <tr>
                     <td scope="row">HTML</td>
                     <td>Node.js</td>
+                    <td>PostgreSQL</td>
                     <td>Git</td>
-                    <td>Chrome Dev Tools</td>
+                    <td>Jest</td>
                     </tr>
                     <tr>
                     <td scope="row">CSS</td>
                     <td></td>
-                    <td>Slack</td>
                     <td></td>
+                    <td>Slack</td>
+                    <td>Enzyme</td>
                     </tr>
                     <tr>
                     <td scope="row">JavaScipt</td>
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td>Chai</td>
                     </tr>
                     <td scope="row">jQuery</td>
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td>Mocha</td>
                     </tr>
                     <td scope="row">Bootstrap</td>
                     <td></td>
                     <td></td>
                     <td></td>
+                    <td>Chrome Dev Tools</td>
                     </tr>
                 </tbody>
             </table>
