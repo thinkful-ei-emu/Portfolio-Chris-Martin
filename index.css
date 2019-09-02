@@ -33,6 +33,10 @@ main {
     background-color: #BAA87F;
 }
 
+.home-section {
+    margin-top: 40px;
+}
+
 .logo-name {
     display: flex;
     flex-direction: row;
@@ -218,3 +222,7 @@ h4 {
 .hidden {
     display: none;
   }
+
+.dd-about-me, .dd-projects {
+    display: block;
+}
